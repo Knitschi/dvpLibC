@@ -10,11 +10,13 @@ set( longDescription "" )
 
 
 set( PACKAGE_PUBLIC_HEADER
-	MyString.h
+	ValueType.h
+	ComplexType.h
 )
 
 set( PACKAGE_PRODUCTION_FILES
-	MyString.cpp
+	ValueType.cpp
+	ComplexType.cpp
 )
 
 ############################################## Add Package #################################
