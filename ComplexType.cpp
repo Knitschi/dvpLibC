@@ -1,7 +1,7 @@
 #include <dvpLibC/ComplexType.h>
 #include <iostream>
 
-namespace dpvLibC
+namespace dvpLibC
 {
 
 

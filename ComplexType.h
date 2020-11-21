@@ -2,7 +2,7 @@
 
 #include <dvpLibC/dvpLibC_export.h>
 
-namespace dpvLibC
+namespace dvpLibC
 {
 	class DVPLIBC_EXPORT ComplexType
 	{
