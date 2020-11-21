@@ -1,11 +1,11 @@
-#include <dpvLibC/libC.h>
+#include <dvpLibC/MyString.h>
 #include <iostream>
 
 namespace dpvLibC
 {
 	void function()
 	{
-		std::cout << "dpvLibC function()"
+		std::cout << "dvpLibC function()"
 				  << "\n";
 	}
 }

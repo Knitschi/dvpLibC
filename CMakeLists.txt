@@ -10,11 +10,11 @@ set( longDescription "" )
 
 
 set( PACKAGE_PUBLIC_HEADER
-	libC.h
+	MyString.h
 )
 
 set( PACKAGE_PRODUCTION_FILES
-	libC.cpp
+	MyString.cpp
 )
 
 ############################################## Add Package #################################
