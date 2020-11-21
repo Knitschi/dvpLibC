@@ -4,6 +4,11 @@
 namespace dvpLibC
 {
 
+	ComplexType::ComplexType()
+		: m_foo{5} 
+	{
+
+	}
 
 	int ComplexType::getFoo() const
 	{
