@@ -1,7 +1,7 @@
-#include <dvpLibC/ValueType.h>
+#include <dvpLibC_1_0_0/ValueType.h>
 #include <iostream>
 
-namespace dvpLibC
+namespace dvpLibC_1_0_0
 {
 
 	bool ValueType::isAwesome() const

@@ -1,7 +1,7 @@
-#include <dvpLibC/ComplexType.h>
+#include <dvpLibC_1_0_0/ComplexType.h>
 #include <iostream>
 
-namespace dvpLibC
+namespace dvpLibC_1_0_0
 {
 
 	ComplexType::ComplexType()

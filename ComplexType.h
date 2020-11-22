@@ -1,8 +1,8 @@
 #pragma once
 
-#include <dvpLibC/dvpLibC_export.h>
+#include <dvpLibC_1_0_0/dvpLibC_export.h>
 
-namespace dvpLibC
+namespace dvpLibC_1_0_0
 {
 	class DVPLIBC_EXPORT ComplexType
 	{
