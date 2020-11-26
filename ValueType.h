@@ -1,6 +1,7 @@
 #pragma once
 
-#include <dvpLibC_2_0_0/dvpLibC_export.h>
+#include VERSIONED_PATH(dvpLibC_self, dvpLibC_export.h)
+
 
 namespace dvpLibC_2_0_0
 {

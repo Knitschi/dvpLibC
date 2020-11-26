@@ -30,5 +30,4 @@ cpfAddCppPackage(
 	PRODUCTION_FILES		${PACKAGE_PRODUCTION_FILES}
 )
 
-cpfGetInCodeVersion(inCodeVersion ${PROJECT_VERSION})
-target_compile_definitions(${PROJECT_NAME} PRIVATE CPF_IN_CODE_VERSION=${inCodeVersion})
+cpfSetupInCodeVersionMechanism()

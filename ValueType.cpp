@@ -1,4 +1,7 @@
-#include <dvpLibC_2_0_0/ValueType.h>
+
+#include VERSIONED_PATH(dvpLibC_self, ValueType.h)
+
+
 #include <iostream>
 
 namespace dvpLibC_2_0_0

@@ -1,4 +1,5 @@
-#include <dvpLibC_2_0_0/ComplexType.h>
+#include VERSIONED_PATH(dvpLibC_self, ComplexType.h)
+
 #include <iostream>
 
 namespace dvpLibC_2_0_0
