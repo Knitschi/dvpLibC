@@ -1,8 +1,9 @@
-#include VERSIONED_PATH(dvpLibC_self, ComplexType.h)
+#define dvpLibCVer dvpLibC_2_0_0
+#include CPF_VERSIONED_INCLUDE(dvpLibCVer, ComplexType.h)
 
 #include <iostream>
 
-namespace dvpLibC_2_0_0
+CPF_VERSIONED_NAMESPACE(dvpLibCVer)
 {
 
 	ComplexType::ComplexType()

@@ -1,10 +1,11 @@
 #pragma once
 
-#include VERSIONED_PATH(dvpLibC_self, dvpLibC_export.h)
+#define dvpLibCVer dvpLibC_2_0_0
+#include CPF_VERSIONED_INCLUDE(dvpLibCVer, dvpLibC_2_0_0_export.h)
 
-namespace dvpLibC_2_0_0
+CPF_VERSIONED_NAMESPACE(dvpLibCVer)
 {
-	class DVPLIBC_EXPORT ComplexType
+	class DVPLIBC_2_0_0_EXPORT ComplexType
 	{
 	public:
 
