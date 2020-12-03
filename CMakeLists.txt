@@ -12,6 +12,7 @@ set( longDescription "" )
 set( PACKAGE_PUBLIC_HEADER
 	ValueType.h
 	ComplexType.h
+	dvpLibCVersionMacros.h
 )
 
 set( PACKAGE_PRODUCTION_FILES

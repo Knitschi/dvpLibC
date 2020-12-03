@@ -1,10 +1,10 @@
-#define dvpLibCVer dvpLibC_2_0_0
-#include CPF_VERSIONED_INCLUDE(dvpLibCVer, ValueType.h)
+#include "dvpLibCVersionMacros.h"
+#include CPF_VERSIONED_INCLUDE(dvpLibC, ValueType.h)
 
 
 #include <iostream>
 
-CPF_VERSIONED_NAMESPACE(dvpLibCVer)
+CPF_VERSIONED_NAMESPACE(dvpLibC)
 {
 
 	bool ValueType::isAwesome() const
