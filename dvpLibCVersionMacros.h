@@ -1,2 +1,2 @@
 #undef dvpLibC
-#define dvpLibC dvpLibC_2_1_0
+#define dvpLibC dvpLibC_2_2_0
