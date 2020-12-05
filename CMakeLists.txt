@@ -18,7 +18,9 @@ set( PACKAGE_PUBLIC_HEADER
 set( PACKAGE_PRODUCTION_FILES
 	ValueType.cpp
 	ComplexType.cpp
-)
+) 
+
+cpfGetUnversionedPackageName(isVersionedName unversionedName versionPostfix ${PROJECT_NAME})
 
 ############################################## Add Package #################################
 cpfAddCppPackage( 
@@ -26,7 +28,7 @@ cpfAddCppPackage(
 	OWNER 					Knitschi
 	BRIEF_DESCRIPTION		${briefDescription}
 	LONG_DESCRIPTION		${longDescription}
-	PACKAGE_NAMESPACE		${PROJECT_NAME}
+	PACKAGE_NAMESPACE		${unversionedName}
 	PUBLIC_HEADER			${PACKAGE_PUBLIC_HEADER}
 	PRODUCTION_FILES		${PACKAGE_PRODUCTION_FILES}
 )
