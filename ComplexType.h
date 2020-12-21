@@ -1,6 +1,6 @@
 #pragma once
 
-#include "dvpLibCVersionMacros.h"
+#include "dvpLibCDependencyNames.h"
 #include CPF_VERSIONED_INCLUDE(dvpLibC, dvplibc_export.h)
 
 CPF_VERSIONED_NAMESPACE(dvpLibC)
