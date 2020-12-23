@@ -1,4 +1,4 @@
-#include "dvpLibCDependencyNames.h"
+#include "dvpLibCDependencyNamesPrivate.h"
 #include CPF_VERSIONED_INCLUDE(dvpLibC, ComplexType.h)
 
 #include <iostream>
